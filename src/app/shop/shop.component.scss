@@ -107,8 +107,8 @@
 
     // TODO: #12. Enable HighContrast mode
     @include cdk.high-contrast() {
-      // outline: solid 1px;
-      // background-color: mat.get-color-from-palette(mat.$light-green-palette, 50);
+      outline: solid 1px;
+      background-color: mat.get-color-from-palette(mat.$light-green-palette, 50);
     }
   }
 }
